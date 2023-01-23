@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: aliceblue;
+    padding: 12px;
+}
+
+.title div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Board */
+.board {
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.board-holder {
+    margin-top: 24px;
+    min-height: 200px;
+    min-width: 80%;
+
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 150px);
+    grid-template-columns: repeat(5, 150px);
+    grid-gap: 12px;
+    justify-content: center;
+}
+
+.card {
+    background-color:rgb(255, 185, 80);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-weight: bold;
+    
+}
